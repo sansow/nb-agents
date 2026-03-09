@@ -8,10 +8,11 @@ metadata:
       title: Trusted Secure Supply Chain 
       icon: dashboard
       type: admin-dashboard
+
     - title: Open in Coder
-      url: https://coder-coder.apps.cluster-cnhmj.dynamic.redhatworkshops.io/@me/${{ values.component_id }}
+      url: https://coder-coder.apps.cluster-cnhmj.dynamic.redhatworkshops.io
       icon: dashboard
-      type: ide
+      type: website
   annotations:
     # ArgoCD apps from this template used tssc-gitops as the grouping
     acs/deployment-name: nb-agents
