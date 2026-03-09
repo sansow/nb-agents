@@ -21,6 +21,7 @@ metadata:
     backstage.io/techdocs-ref: dir:. 
     janus-idp.io/tekton: nb-agents
     quay.io/repository-slug: tssc/nb-agents
+    coder/template-name: nb-python-coder
   tags: ["python", "pip", "flask", "sscs", "sbom", "acs", "nb-coe"] 
 spec:
   type: service
